@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.2 - Unreleased
+
+- Added support for PHP 8.2 and 8.3
+
 ## 2.5.1 - 2022-08-25
 
 - Fixed Xdebug download error [#201](https://github.com/cretueusebiu/valet-windows/pull/201)
