@@ -1,8 +1,8 @@
 # Changelog
 
-## 2.5.2 - Unreleased
+## 2.5.2 - 2023-12-21
 
-- Added support for PHP 8.2 and 8.3
+- Added support for PHP 8.2 and 8.3.
 
 ## 2.5.1 - 2022-08-25
 
