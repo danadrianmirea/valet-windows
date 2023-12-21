@@ -4,9 +4,10 @@ namespace Tests;
 
 use Valet\Configuration;
 use Valet\Filesystem;
+use Valet\Valet;
+
 use function Valet\resolve;
 use function Valet\user;
-use Valet\Valet;
 
 class ConfigurationTest extends TestCase
 {

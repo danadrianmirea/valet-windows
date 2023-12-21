@@ -3,8 +3,9 @@
 namespace Tests;
 
 use Valet\CommandLine;
-use function Valet\resolve;
 use Valet\Valet;
+
+use function Valet\resolve;
 
 class ValetTest extends TestCase
 {
