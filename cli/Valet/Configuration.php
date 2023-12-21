@@ -216,7 +216,7 @@ class Configuration
     {
         if ($path == $this->valetHomePath('Sites')) {
             info("Cannot remove this directory because this is where Valet stores its site definitions.\nRun [valet paths] for a list of parked paths.");
-            exit();
+            exit;
         }
 
         $this->write(tap($this->read(), function (&$config) use ($path) {

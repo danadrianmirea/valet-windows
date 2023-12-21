@@ -6,9 +6,10 @@ use Mockery as m;
 use Symfony\Component\Process\PhpExecutableFinder;
 use Valet\Configuration;
 use Valet\PhpCgi;
-use function Valet\resolve;
 use Valet\WinSW;
 use Valet\WinSwFactory;
+
+use function Valet\resolve;
 
 class PhpCgiTest extends TestCase
 {

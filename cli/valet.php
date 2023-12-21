@@ -12,6 +12,7 @@ if (file_exists(__DIR__.'/../vendor/autoload.php')) {
 use Illuminate\Container\Container;
 use Silly\Application;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
+
 use function Valet\info;
 use function Valet\output;
 use function Valet\table;
